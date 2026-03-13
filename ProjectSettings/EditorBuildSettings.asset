@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/BrokenHill/Scenes/Menu.unity
+    guid: 2b1bae889982d63419feb4a25f7037cc
+  - enabled: 1
     path: Assets/BrokenHill/Scenes/BH_Level1_Forest.unity
     guid: 93dbaba28e1f52f44b240afcf25b7ce8
   m_configObjects: {}
