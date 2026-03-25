@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
 		 rb = GetComponent<Rigidbody2D>();		 
 		 attackPoint.SetActive(false);
 		// startingPosition.initialValue = new Vector2(0, 0);
-		 transform.position = startingPosition.initialValue;
+		 
 	 }
 
 	 

@@ -24202,9 +24202,21 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5783314569390775409, guid: dd8acba9c37bf38478c3b1984b2d0264, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064138668493829263, guid: dd8acba9c37bf38478c3b1984b2d0264, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8505258380020655960, guid: dd8acba9c37bf38478c3b1984b2d0264, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970272491913514773, guid: dd8acba9c37bf38478c3b1984b2d0264, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
