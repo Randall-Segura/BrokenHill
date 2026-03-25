@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BrokenHill/Scenes/BH_Level1_Forest.unity
     guid: 93dbaba28e1f52f44b240afcf25b7ce8
+  - enabled: 1
+    path: Assets/BrokenHill/Scenes/BH_Escena2.unity
+    guid: db92cc315a5150949ab8d3cffd593ee9
+  - enabled: 1
+    path: Assets/BrokenHill/Scenes/Village.unity
+    guid: 8b4adac56e893a546b4c10e1901538d3
   m_configObjects: {}
