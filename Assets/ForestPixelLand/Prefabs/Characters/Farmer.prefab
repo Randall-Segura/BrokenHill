@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6830479650496588142}
   - component: {fileID: 4220182533220003971}
   - component: {fileID: 57163781000558089}
-  - component: {fileID: 6836488553562276777}
   - component: {fileID: 1925535006837034115}
+  - component: {fileID: 8814645561704002979}
+  - component: {fileID: 8405240806903078210}
   m_Layer: 0
   m_Name: Farmer
   m_TagString: Untagged
@@ -98,30 +99,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.13489056, y: 1.4186088}
   m_Size: {x: 0.5873585, y: 1.0069873}
   m_Direction: 0
---- !u!114 &6836488553562276777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4390863874457660618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180afc6642f86e44d9779e672533e732, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 1
-  colliderDistance: 0.1
-  boxCollider: {fileID: 1925535006837034115}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 1
-  anim: {fileID: 4205691490464760860}
-  Player: {fileID: 0}
-  Robber: {fileID: 0}
-  speed: 1
-  distanceBetween: 1
-  attackDistance: 1
 --- !u!61 &1925535006837034115
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,6 +144,61 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6691117, y: 1.1828899}
   m_EdgeRadius: 0
+--- !u!114 &8814645561704002979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390863874457660618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662e23534b57b7f49915558b02dd98ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Aldeano
+  dialogueLines: []
+  dialoguePanel: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  detectionRadius: 2
+  interactKey: 101
+  typingSpeed: 0.05
+--- !u!58 &8405240806903078210
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390863874457660618}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &6130233094977267833
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +270,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 561869287
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -168863919, guid: f9076f5781e6b6d4681aba530fa2dabf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.56078434}
@@ -324,7 +356,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 561869287
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 1467361616, guid: a0a10cad6b3aaaf459c8c1b068408ea0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

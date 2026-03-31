@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 561869287
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 376104828, guid: 3b5ccaffabffbcd4b81ac241d893961a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 561869287
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -168863919, guid: f9076f5781e6b6d4681aba530fa2dabf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.56078434}
@@ -202,8 +202,8 @@ GameObject:
   - component: {fileID: 6760890306973037638}
   - component: {fileID: 3430656385429250865}
   - component: {fileID: 2230053588239501872}
-  - component: {fileID: 2005527961847058286}
   - component: {fileID: 3609362970762808391}
+  - component: {fileID: 1957095765883562955}
   m_Layer: 0
   m_Name: MageGuard
   m_TagString: Untagged
@@ -289,30 +289,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.05489087, y: 0.48443884}
   m_Size: {x: 0.72818995, y: 1.1291004}
   m_Direction: 0
---- !u!114 &2005527961847058286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5838017230468793882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180afc6642f86e44d9779e672533e732, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 1
-  colliderDistance: 0.1
-  boxCollider: {fileID: 3609362970762808391}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 1
-  anim: {fileID: 1907004595877995042}
-  Player: {fileID: 8505258380020655960, guid: dd8acba9c37bf38478c3b1984b2d0264, type: 3}
-  Robber: {fileID: 5838017230468793882}
-  speed: 1.5
-  distanceBetween: 3
-  attackDistance: 1
 --- !u!61 &3609362970762808391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -358,3 +334,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1584353, y: 1.3188369}
   m_EdgeRadius: 0
+--- !u!114 &1957095765883562955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5838017230468793882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662e23534b57b7f49915558b02dd98ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Aldeano
+  dialogueLines: []
+  dialoguePanel: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  detectionRadius: 2
+  interactKey: 101
+  typingSpeed: 0.05
