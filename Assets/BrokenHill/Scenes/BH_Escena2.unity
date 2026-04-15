@@ -1771,6 +1771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guard
       objectReference: {fileID: 0}
+    - target: {fileID: 4241473465643006652, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
+      propertyPath: countForObjective
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4362304501307231534, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

@@ -47218,6 +47218,10 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 65121188}
+    - target: {fileID: 4789853377679014811, guid: 79959b7bb7976f046a0cc0c83e227e9b, type: 3}
+      propertyPath: countForObjective
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6931836795330282970, guid: 79959b7bb7976f046a0cc0c83e227e9b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -45.37064
@@ -53148,6 +53152,10 @@ PrefabInstance:
       propertyPath: Robber
       value: 
       objectReference: {fileID: 592835836}
+    - target: {fileID: 4241473465643006652, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
+      propertyPath: countForObjective
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4362304501307231534, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.43498
@@ -65249,6 +65257,10 @@ PrefabInstance:
       propertyPath: Robber
       value: 
       objectReference: {fileID: 1974970298}
+    - target: {fileID: 4241473465643006652, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
+      propertyPath: countForObjective
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4362304501307231534, guid: 6c5dbe6ac4e97a84f841bb331a397b82, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.06
